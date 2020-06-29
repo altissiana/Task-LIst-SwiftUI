@@ -6,3 +6,7 @@
 //  Copyright © 2020 Tissiana Alves. All rights reserved.
 //
 
+struct Task {
+    var name: String
+    var completed = false
+}
