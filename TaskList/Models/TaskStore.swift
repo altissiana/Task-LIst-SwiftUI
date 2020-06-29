@@ -7,5 +7,11 @@
 //
 
 class TaskStore {
-    var task = Task(name: "Code a SwiftUI app")
+    var tasks = [
+        "Code a SwiftUI app",
+        "Walk the cat",
+        "Buy Ikon pass",
+        "Climb El Capitan",
+        "Learn to make baklava"
+    ]
 }
