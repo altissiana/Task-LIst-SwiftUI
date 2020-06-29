@@ -13,5 +13,5 @@ class TaskStore {
         "Buy Ikon pass",
         "Climb El Capitan",
         "Learn to make baklava"
-    ]
+        ].map { Task(name: $0) }
 }
