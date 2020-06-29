@@ -14,7 +14,7 @@ struct ContentView: View {
     
     var body: some View {
         List(taskStore.tasks.indices) { index in
-            Text("Hello, World \(index)")
+            Text(self.taskStore.tasks[index].name)
         }
     }
 }
