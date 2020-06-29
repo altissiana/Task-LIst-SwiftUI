@@ -7,5 +7,5 @@
 //
 
 class TaskStore {
-    
+    var task = Task(name: "Code a SwiftUI app")
 }
