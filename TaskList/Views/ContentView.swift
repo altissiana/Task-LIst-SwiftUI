@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var taskStore: TaskStore
+    @ObservedObject var taskStore: TaskStore
     @State var modalIsPresented = false
     
     var body: some View {
