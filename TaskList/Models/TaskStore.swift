@@ -12,6 +12,8 @@ class TaskStore {
         "Walk the cat",
         "Buy Ikon pass",
         "Climb El Capitan",
-        "Learn to make baklava"
+        "Learn to make baklava",
+        "Learn Japonese",
+        "Workout"
         ].map { Task(name: $0) }
 }
