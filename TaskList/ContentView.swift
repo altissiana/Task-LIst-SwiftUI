@@ -13,7 +13,7 @@ struct ContentView: View {
     var taskStore = TaskStore()
     
     var body: some View {
-        List(taskStore.tasks, id: \.id) { task in
+        List(taskStore.tasks) { task in
             Text(task.name)
         }
     }
