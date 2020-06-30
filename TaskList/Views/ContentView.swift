@@ -18,6 +18,12 @@ struct ContentView: View {
                 Text(task.name)
             }
             .navigationBarTitle("Tasks")
+            .navigationBarItems(
+                trailing:
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Image(systemName: "plus")
+                }
+            )
         }
     }
 }
