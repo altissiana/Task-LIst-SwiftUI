@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D39CCCE824ABB0E200A8FA8A /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CCCE724ABB0E200A8FA8A /* NewTaskView.swift */; };
 		D3FE890E24AA53C90011CE32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FE890D24AA53C90011CE32 /* AppDelegate.swift */; };
 		D3FE891024AA53C90011CE32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FE890F24AA53C90011CE32 /* SceneDelegate.swift */; };
 		D3FE891224AA53C90011CE32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FE891124AA53C90011CE32 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D39CCCE724ABB0E200A8FA8A /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
 		D3FE890A24AA53C90011CE32 /* TaskList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FE890D24AA53C90011CE32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3FE890F24AA53C90011CE32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D39CCCE924ABB0F000A8FA8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3FE891124AA53C90011CE32 /* ContentView.swift */,
+				D39CCCE724ABB0E200A8FA8A /* NewTaskView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D3FE890124AA53C90011CE32 = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +73,7 @@
 			children = (
 				D3FE890D24AA53C90011CE32 /* AppDelegate.swift */,
 				D3FE890F24AA53C90011CE32 /* SceneDelegate.swift */,
-				D3FE891124AA53C90011CE32 /* ContentView.swift */,
+				D39CCCE924ABB0F000A8FA8A /* Views */,
 				D3FE892424AA572F0011CE32 /* Models */,
 				D3FE891324AA53CD0011CE32 /* Assets.xcassets */,
 				D3FE891824AA53CD0011CE32 /* LaunchScreen.storyboard */,
@@ -162,6 +173,7 @@
 			files = (
 				D3FE892624AA593D0011CE32 /* TaskStore.swift in Sources */,
 				D3FE892224AA552D0011CE32 /* Task.swift in Sources */,
+				D39CCCE824ABB0E200A8FA8A /* NewTaskView.swift in Sources */,
 				D3FE890E24AA53C90011CE32 /* AppDelegate.swift in Sources */,
 				D3FE891024AA53C90011CE32 /* SceneDelegate.swift in Sources */,
 				D3FE891224AA53C90011CE32 /* ContentView.swift in Sources */,
