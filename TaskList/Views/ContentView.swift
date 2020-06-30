@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     
     var taskStore: TaskStore
+    @State var modalIsPresented = false
     
     var body: some View {
         NavigationView {
@@ -20,10 +21,13 @@ struct ContentView: View {
             .navigationBarTitle("Tasks")
             .navigationBarItems(
                 trailing:
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Button(action: {self.modalIsPresented = true}) {
                     Image(systemName: "plus")
                 }
             )
+        }
+        .sheet(isPresented: $modalIsPresented) {
+            NewTaskView()
         }
     }
 }
