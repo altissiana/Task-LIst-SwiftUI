@@ -11,6 +11,9 @@ import SwiftUI
 struct NewTaskView: View {
     
     var taskStore: TaskStore
+    
+    @Environment(\.presentationMode) var presentationMode
+    
     @State var text = ""
     
     var body: some View {
@@ -20,6 +23,7 @@ struct NewTaskView: View {
                 self.taskStore.tasks.append(
                     Task(name: self.text)
                 )
+                self.presentationMode.wrappedValue.dismiss()
             }
             .disabled(text.isEmpty)
         }
