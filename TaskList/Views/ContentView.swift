@@ -13,11 +13,15 @@ struct ContentView: View {
     var taskStore: TaskStore
     
     var body: some View {
-        List(taskStore.tasks) { task in
-            Text(task.name)
+        NavigationView {
+            List(taskStore.tasks) { task in
+                Text(task.name)
+            }
+            .navigationBarTitle("Tasks")
         }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
