@@ -9,8 +9,11 @@
 import SwiftUI
 
 struct NewTaskView: View {
+    
+    @State var text = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextField("Task Name", text: $text)
     }
 }
 
