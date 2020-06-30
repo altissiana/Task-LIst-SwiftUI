@@ -21,13 +21,13 @@ struct ContentView: View {
             .navigationBarTitle("Tasks")
             .navigationBarItems(
                 trailing:
-                Button(action: {self.modalIsPresented = true}) {
+                Button(action: { self.modalIsPresented = true }) {
                     Image(systemName: "plus")
                 }
             )
         }
         .sheet(isPresented: $modalIsPresented) {
-            NewTaskView()
+            NewTaskView(taskStore: self.taskStore)
         }
     }
 }
@@ -35,6 +35,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(taskStore: TaskStore())
+        ContentView( taskStore: TaskStore() )
     }
 }
