@@ -1,5 +1,5 @@
 //
-//  RowView.swift
+//  TaskEditingView.swift
 //  TaskList
 //
 //  Created by Tissiana Alves on 7/1/20.
@@ -8,18 +8,17 @@
 
 import SwiftUI
 
-
-struct RowView: View {
+struct TaskEditingView: View {
     
     @Binding var task: Task
     
     var body: some View {
-        Text(task.name)
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct RowView_Previews: PreviewProvider {
+struct TaskEditingView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView(task: .constant(Task(name: "To Do")))
+        TaskEditingView( task: .constant( Task(name: "To Do")))
     }
 }
