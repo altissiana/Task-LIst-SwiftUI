@@ -11,6 +11,7 @@
 		D39CCCEB24ACF5C600A8FA8A /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CCCEA24ACF5C600A8FA8A /* RowView.swift */; };
 		D39CCCED24ACF9CD00A8FA8A /* TaskEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CCCEC24ACF9CD00A8FA8A /* TaskEditingView.swift */; };
 		D39CCCEF24AD04A800A8FA8A /* Task.Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CCCEE24AD04A800A8FA8A /* Task.Priority.swift */; };
+		D39CCCF324AD05D300A8FA8A /* TaskStore.PrioritizedTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CCCF224AD05D300A8FA8A /* TaskStore.PrioritizedTasks.swift */; };
 		D3FE890E24AA53C90011CE32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FE890D24AA53C90011CE32 /* AppDelegate.swift */; };
 		D3FE891024AA53C90011CE32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FE890F24AA53C90011CE32 /* SceneDelegate.swift */; };
 		D3FE891224AA53C90011CE32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FE891124AA53C90011CE32 /* ContentView.swift */; };
@@ -26,6 +27,7 @@
 		D39CCCEA24ACF5C600A8FA8A /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		D39CCCEC24ACF9CD00A8FA8A /* TaskEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditingView.swift; sourceTree = "<group>"; };
 		D39CCCEE24AD04A800A8FA8A /* Task.Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.Priority.swift; sourceTree = "<group>"; };
+		D39CCCF224AD05D300A8FA8A /* TaskStore.PrioritizedTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.PrioritizedTasks.swift; sourceTree = "<group>"; };
 		D3FE890A24AA53C90011CE32 /* TaskList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FE890D24AA53C90011CE32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3FE890F24AA53C90011CE32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			children = (
 				D3FE892124AA552D0011CE32 /* Task.swift */,
 				D39CCCEE24AD04A800A8FA8A /* Task.Priority.swift */,
+				D39CCCF224AD05D300A8FA8A /* TaskStore.PrioritizedTasks.swift */,
 				D3FE892524AA593D0011CE32 /* TaskStore.swift */,
 			);
 			path = Models;
@@ -188,6 +191,7 @@
 				D39CCCE824ABB0E200A8FA8A /* NewTaskView.swift in Sources */,
 				D3FE890E24AA53C90011CE32 /* AppDelegate.swift in Sources */,
 				D3FE891024AA53C90011CE32 /* SceneDelegate.swift in Sources */,
+				D39CCCF324AD05D300A8FA8A /* TaskStore.PrioritizedTasks.swift in Sources */,
 				D3FE891224AA53C90011CE32 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
