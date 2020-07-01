@@ -10,7 +10,7 @@ import SwiftUI
 
 
 struct RowView: View {
-    var task: Task
+    @Binding var task: Task
     
     var body: some View {
         Text(task.name)
@@ -19,6 +19,6 @@ struct RowView: View {
 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView(task: Task(name: "To Do"))
+        RowView(task: .constant(Task(name: "To Do")))
     }
 }
