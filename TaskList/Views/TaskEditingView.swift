@@ -13,7 +13,9 @@ struct TaskEditingView: View {
     @Binding var task: Task
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            TextField("Name", text: $task.name)
+        }
     }
 }
 
