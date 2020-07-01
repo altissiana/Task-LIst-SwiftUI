@@ -8,7 +8,7 @@
 import Combine
 
 class TaskStore: ObservableObject {
-   @Published var tasks = [
+    @Published var tasks = [
         "Code a SwiftUI app",
         "Walk the cat",
         "Buy Ikon pass",
